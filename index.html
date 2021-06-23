@@ -12,8 +12,15 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
     />
+
     <!-- ICONS -->
-    <link rel="stylesheet" href="assets/icon/style.css">
+    <link rel="stylesheet" href="assets/icon/style.css" />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <!-- STYLES -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -23,17 +30,18 @@
   </head>
 
   <body>
+    <!-- HEADER -->
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">beauty<span>salon</span>.</a>
         <div class="menu">
-            <ul class="grid">
-                <li><a class="title" href="#home">Início</a></li>
-                <li><a class="title" href="#about">Sobre</a></li>
-                <li><a class="title" href="#services">Serviços</a></li>
-                <li><a class="title" href="#testimonials">Depoimentos</a></li>
-                <li><a class="title" href="#contact">Contato</a></li>
-            </ul>
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
         </div>
 
         <div class="toggle icon-menu"></div>
@@ -42,6 +50,7 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -62,51 +71,212 @@
       </section>
 
       <div class="divider-1"></div>
-      
+
+      <!-- ABOUT -->
       <section class="section" id="about">
-          <div class="container grid">
-              <div class="image">
-                  <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Três mulheres sorrindo">
-              </div>
-              <div class="text">
-                  <h2 class="title">Sobre nós</h2>
-                  <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.</p>
-                  <br>
-                  <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.</p>
-                  <br>
-                  <p>Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. Paisis, filhis, espiritis santis. Cevadis im ampola pa arma uma pindureta.</p>
-              </div>
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              alt="Três mulheres sorrindo"
+            />
           </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
+              disputationi eu sit. Vide electram sadipscing et per. Per aumento
+              de cachacis, eu reclamis. Paisis, filhis, espiritis santis.
+              Cevadis im ampola pa arma uma pindureta.
+            </p>
+            <br />
+            <p>
+              Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
+              disputationi eu sit. Vide electram sadipscing et per. Per aumento
+              de cachacis, eu reclamis. Paisis, filhis, espiritis santis.
+              Cevadis im ampola pa arma uma pindureta.
+            </p>
+            <br />
+            <p>
+              Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan
+              disputationi eu sit. Vide electram sadipscing et per. Per aumento
+              de cachacis, eu reclamis. Paisis, filhis, espiritis santis.
+              Cevadis im ampola pa arma uma pindureta.
+            </p>
+          </div>
+        </div>
       </section>
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
-          <div class="container grid">
-              <header>
-                  <h2 class="title">Serviços</h2>
-                  <p>Com mais de 10 anos no mercado, o <strong><span>Beautysalon</span></strong> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
-              </header>
-              <div class="cards grid">
-                  <div class="card">
-                      <i class="icon-woman-hair"></i>
-                      <h3 class="title">Terapia capilar</h3>
-                      <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.</p>
-                  </div>
-                  <div class="card">
-                    <i class="icon-trim"></i>
-                      <h3 class="title">Cortes</h3>
-                      <p>A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.</p>
-                  </div>
-                  <div class="card">
-                    <i class="icon-cosmetic"></i>
-                      <h3 class="title">Tratamento</h3>
-                      <p>O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.</p>
-                  </div>
-              </div>
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, o
+              <strong><span>Beautysalon</span></strong> já conquistou clientes
+              de inúmeros países com seus tratamentos exclusivos e totalmente
+              naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Terapia completa para couro cabeludo e fios, protegendo todos os
+                tipos de cabelos, inclusive os longos e finos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                A nossa equipe é repleta de profissionais renomados, famosos por
+                lançarem tendências com cortes diferenciados e clássicos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamento</h3>
+              <p>
+                O beautysalon conta com diversos tratamentos naturais e
+                totalmente veganos, para qualquer tipo de cabelo.
+              </p>
+            </div>
           </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Mussum Ipsum, cacilds vidis litro
+                    abertis. Admodum accumsan disputationi eu sit. Vide electram
+                    sadipscing et per. Per aumento de cachacis, eu reclamis.
+                    Paisis, filhis, espiritis santis. Cevadis im ampola pa arma
+                    uma pindureta.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/33.jpg"
+                      alt="Foto de Wanessa"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Mussum Ipsum, cacilds vidis litro
+                    abertis. Admodum accumsan disputationi eu sit. Vide electram
+                    sadipscing et per. Per aumento de cachacis, eu reclamis.
+                    Paisis, filhis, espiritis santis. Cevadis im ampola pa arma
+                    uma pindureta.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/89.jpg"
+                      alt="Foto de Franciele"
+                    />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Mussum Ipsum, cacilds vidis litro
+                    abertis. Admodum accumsan disputationi eu sit. Vide electram
+                    sadipscing et per. Per aumento de cachacis, eu reclamis.
+                    Paisis, filhis, espiritis santis. Cevadis im ampola pa arma
+                    uma pindureta.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/47.jpg"
+                      alt="Foto de Valeska"
+                    />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- SWIPER PAGINATION -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+551998456754&text=Oi! Gostaria de agendar um horário."
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 99845-6754</li>
+              <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i> contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
+
+    <footer id="footer">
+      <div class="container grid">
+        <a class="logo" href="#">beauty<span>salon</span>.</a>
+
+        <div class="text">
+          <p>&copy;2021 Beautysalon.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social">
+          <a href="#"><i class="icon-instagram"></i></a>
+          <a href="#"><i class="icon-facebook"></i></a>
+          <a href="#"><i class="icon-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SWIPER SLIDER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- MAIN JS -->
     <script src="js/script.js"></script>
   </body>
 </html>
