@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com:
 
 E com o plugin Swiper Slider:
 
-<img src="https://github.surmon.me/images/common/swiper-logo.svg" width="100">
+<img src="./files/swiper.svg" width="100">
 
 # :art: Layout
 
