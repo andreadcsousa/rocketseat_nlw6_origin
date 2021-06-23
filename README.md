@@ -23,4 +23,5 @@ Esse projeto foi desenvolvido com:
 
 # :art: Layout
 
-<img src="./files/rocketq.jpg" alt="" width="100%">
+<img src="./files/menu.jpg" alt="" width="50%"><img src="./files/destaque.jpg" alt="" width="50%">
+<img src="./files/sobre.jpg" alt="" width="50%"><img src="./files/servicos.jpg" alt="" width="50%">
