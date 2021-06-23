@@ -27,5 +27,5 @@ E com os plugins Swiper Slider | Scroll Reveal:
 
 # :art: Layout
 
-<img src="./files/menu.jpg" alt="" width="33%"><img src="./files/destaque.jpg" alt="" width="33%"><img src="./files/sobre.jpg" alt="" width="33%">
-<img src="./files/servicos.jpg" alt="" width="33%"><img src="./files/depoimentos.jpg" alt="" width="33%"><img src="./files/contato.jpg" alt="" width="33%">
+<img src="./files/menu.jpg" alt="" width="33%"> <img src="./files/destaque.jpg" alt="" width="33%"> <img src="./files/sobre.jpg" alt="" width="33%">
+<img src="./files/servicos.jpg" alt="" width="33%"> <img src="./files/depoimentos.jpg" alt="" width="33%"> <img src="./files/contato.jpg" alt="" width="33%">
