@@ -21,11 +21,11 @@ Esse projeto foi desenvolvido com:
 
 <img src="./files/html.svg" width="100"><img src="./files/css.svg" width="100"><img src="./files/javascript.svg" width="100">
 
-E com o plugin Swiper Slider:
+E com os plugins Swiper Slider | Scroll Reveal:
 
 <img src="./files/swiper.svg" width="100"><img src="./files/scroll.svg" width="100">
 
 # :art: Layout
 
-<img src="./files/menu.jpg" alt="" width="50%"><img src="./files/destaque.jpg" alt="" width="50%">
-<img src="./files/sobre.jpg" alt="" width="50%"><img src="./files/servicos.jpg" alt="" width="50%">
+<img src="./files/menu.jpg" alt="" width="50%"><img src="./files/destaque.jpg" alt="" width="50%"><img src="./files/sobre.jpg" alt="" width="50%">
+<img src="./files/servicos.jpg" alt="" width="50%"><img src="./files/depoimentos.jpg" alt="" width="50%"><img src="./files/contato.jpg" alt="" width="50%">
