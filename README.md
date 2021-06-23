@@ -21,6 +21,10 @@ Esse projeto foi desenvolvido com:
 
 <img src="./files/html.svg" width="100"><img src="./files/css.svg" width="100"><img src="./files/javascript.svg" width="100">
 
+E com o plugin Swiper Slider:
+
+<img src="https://github.surmon.me/images/common/swiper-logo.svg" width="100">
+
 # :art: Layout
 
 <img src="./files/menu.jpg" alt="" width="50%"><img src="./files/destaque.jpg" alt="" width="50%">
