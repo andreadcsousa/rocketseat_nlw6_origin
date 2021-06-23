@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com:
 
 E com o plugin Swiper Slider:
 
-<img src="./files/swiper.svg" width="100">
+<img src="./files/swiper.svg" width="100"><img src="./files.scroll.svg" width="100">
 
 # :art: Layout
 
