@@ -446,7 +446,7 @@ nav.show div.icon-close {
 
 /* -------------------- footer -------------------- */
 #footer .grid {
-  gap: 2rem;
+  gap: 1.4rem;
 }
 
 #footer .container {
@@ -456,7 +456,7 @@ nav.show div.icon-close {
 }
 
 #footer .logo span {
-  color: white;
+  color: var(--body-color);
 }
 
 #footer p {
@@ -472,4 +472,56 @@ nav.show div.icon-close {
   color: var(--text-color-light);
   font-size: 1.5rem;
   margin-right: 2rem;
+
+  transition: 0.3s;
+}
+
+#footer .social a:hover {
+  transform: translateY(-8px);
+}
+
+/* ------------------- arrow-up ------------------- */
+.back-to-top {
+  background: var(--base-color);
+  color: var(--text-color-light);
+
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  padding: 0.5rem;
+  clip-path: circle();
+
+  font-size: 1.5rem;
+  line-height: 0;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.3s;
+  transform: translateY(100%);
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ------------------ responsivo ------------------ */
+
+/* extra large devices: 1200 > -------------------- */
+@media (min-width: 1200px) {
+}
+
+/* large devices: 1023 > -------------------------- */
+@media (min-width: 1023px) {
+}
+
+/* large devices: 992 > --------------------------- */
+@media (min-width: 992px) {
+}
+
+/* medium devices: 767 > -------------------------- */
+@media (min-width: 767px) {
 }
