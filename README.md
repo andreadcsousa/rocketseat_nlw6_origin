@@ -25,7 +25,11 @@ E com os plugins Swiper Slider | Scroll Reveal:
 
 <img src="./files/swiper.svg" width="100"><img src="./files/scroll.svg" width="100">
 
-# :art: Layout
+# :art: Layout PC
+
+<img src="./files/pc-menu.jpg" alt="" width="100%">
+
+# :iphone: Layout Mobile
 
 <img src="./files/menu.jpg" alt="" width="32%"> <img src="./files/destaque.jpg" alt="" width="32%"> <img src="./files/sobre.jpg" alt="" width="32%">
 <img src="./files/servicos.jpg" alt="" width="32%"> <img src="./files/depoimentos.jpg" alt="" width="32%"> <img src="./files/contato.jpg" alt="" width="32%">
