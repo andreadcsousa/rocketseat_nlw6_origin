@@ -27,7 +27,7 @@ E com os plugins Swiper Slider | Scroll Reveal:
 
 # :art: Layout PC
 
-<img src="./files/pc-menu.jpg" alt="" width="100%">
+<img src="./files/pc-resume.jpg.jpg" alt="" width="100%">
 
 # :iphone: Layout Mobile
 
