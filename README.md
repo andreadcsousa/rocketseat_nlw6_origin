@@ -21,9 +21,13 @@ Esse projeto foi desenvolvido com:
 
 <img src="./files/html.svg" width="100"><img src="./files/css.svg" width="100"><img src="./files/javascript.svg" width="100">
 
-E com os plugins Swiper Slider | Scroll Reveal:
+# :package: Recursos
 
-<img src="./files/swiper.svg" width="100"><img src="./files/scroll.svg" width="100">
+### Swiper Slider
+<img src="./files/swiper.svg" width="100">
+
+### Scroll Reveal
+<img src="./files/scroll.svg" width="100">
 
 # :art: Layout PC
 
